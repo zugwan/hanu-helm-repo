@@ -3,21 +3,21 @@ entries:
   argo:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-02T01:05:21.299358452Z"
+    created: "2020-12-02T10:38:05.588401047Z"
     dependencies:
     - condition: mysql.enabled
       name: mysql
-      repository: https://kubernetes-charts.storage.googleapis.com/
+      repository: https://charts.helm.sh/stable
       version: 1.6.*
     description: Argo Helm Chart
-    digest: c1b53b88c160a19c6f8567667210abf21c18e4ce57dc9dc23952b5ee8771f7a7
+    digest: 3046a42e9d686c0cbcc68dfacc98cc8f95286fc3c1c2211e4c7b5e88764d7df8
     name: argo
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/argo-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/argo-0.1.0.tgz
     version: 0.1.0
   ceph-provisioners:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.303437856Z"
+    created: "2020-12-02T10:38:05.592195934Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -26,11 +26,11 @@ entries:
     digest: fb21fa11f692da048f59c146d12e01fc444bd64d9f5a44966945f7beb5060b59
     name: ceph-provisioners
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/ceph-provisioners-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/ceph-provisioners-0.1.0.tgz
     version: 0.1.0
   cinder:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.313650536Z"
+    created: "2020-12-02T10:38:05.604054994Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -46,73 +46,73 @@ entries:
     - https://opendev.org/openstack/cinder
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/cinder-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/cinder-0.1.0.tgz
     version: 0.1.0
   cloud-console:
   - apiVersion: v1
     appVersion: 1.0.4
-    created: "2020-12-02T01:05:21.31454306Z"
+    created: "2020-12-02T10:38:05.60507889Z"
     description: Monitoring Dashboard for Tacoplay
-    digest: c11c1e66e9cff4d2239e0500cac2cd17649bd4b819421cb38969f88cbfaad529
+    digest: a2a8e3e8d05f5e4ee1960a16af481373714b9adb3946e658a54219210314a533
     name: cloud-console
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/cloud-console-1.0.7.tgz
+    - https://zugwan.github.io/hanu-helm-repo/cloud-console-1.0.7.tgz
     version: 1.0.7
   cronjob-backup-cloudconsole:
   - apiVersion: v2
-    created: "2020-12-02T01:05:21.315089893Z"
+    created: "2020-12-02T10:38:05.605702988Z"
     description: A cronjob helm chart for backup cloud-console
-    digest: 8c2cf462eac65a216b30be271c123248822909b655b42b7cb4a0a944a1b3fb9b
+    digest: 4724fcf592408053ee51acd5295685fecd40a3d26126ec1be96bc6715ad1f081
     name: cronjob-backup-cloudconsole
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/cronjob-backup-cloudconsole-1.0.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/cronjob-backup-cloudconsole-1.0.0.tgz
     version: 1.0.0
   cronjob-backup-jenkins:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-02T01:05:21.315410416Z"
+    created: "2020-12-02T10:38:05.606117087Z"
     description: A Helm chart for Kubernetes
-    digest: 67b1a6cb4b1799c46c163d4026fa2d46a7a70361ef7908b7ecd421a08d5e9c8b
+    digest: e671d2f1504ea1ffbd6950591a8fed6ce3a890e78f1dc984ba2708481e581cdf
     name: cronjob-backup-jenkins
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/cronjob-backup-jenkins-1.0.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/cronjob-backup-jenkins-1.0.0.tgz
     version: 1.0.0
   cronjob-backup-keycloak:
   - apiVersion: v2
-    created: "2020-12-02T01:05:21.316053056Z"
+    created: "2020-12-02T10:38:05.606934184Z"
     description: A cronjob helm chart for backup realm in keycloak
-    digest: 326d19231474c4d71494479074201b32e1400853e2b5abc2cd6c010e51326c26
+    digest: c6cfb192498159e6efd30fb9058d16aaae8eecae55c7b9b30c77df209b2fc7fe
     name: cronjob-backup-keycloak
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/cronjob-backup-keycloak-1.0.2.tgz
+    - https://zugwan.github.io/hanu-helm-repo/cronjob-backup-keycloak-1.0.2.tgz
     version: 1.0.2
   custom-network:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-02T01:05:21.316534189Z"
+    created: "2020-12-02T10:38:05.607580982Z"
     description: A Helm chart for Kubernetes
-    digest: 65ec4bac8be089e8ea4df5b3a5471a6a1554455f88ede1f75f0facc6377481ad
+    digest: 1075e57be77d7d4e8573c204b0fe4160896874f2be1b9732278e98a9d171d15c
     name: custom-network
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/custom-network-1.0.10.tgz
+    - https://zugwan.github.io/hanu-helm-repo/custom-network-1.0.10.tgz
     version: 1.0.10
   elasticsearch-operator:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-02T01:05:21.317871869Z"
+    created: "2020-12-02T10:38:05.609184876Z"
     description: A Helm chart for Kubernetes
-    digest: 7e2568b6f5c25bae60b6d85e4d3f134db2af6719c20ca1660ff4b72da6df1827
+    digest: 7a5cf9f47e9bc6f514d757de17c2bf85136a37649cdb2fb18432fb7d9e5863d0
     name: elasticsearch-operator
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/elasticsearch-operator-1.0.3.tgz
+    - https://zugwan.github.io/hanu-helm-repo/elasticsearch-operator-1.0.3.tgz
     version: 1.0.3
   fluentbit-operator:
   - apiVersion: v1
     appVersion: 1.4.5-skt
-    created: "2020-12-02T01:05:21.321660686Z"
+    created: "2020-12-02T10:38:05.614273759Z"
     description: Provide easy log collecting definition for kubernetes pods and their
       hosts, and management of fluentbit
-    digest: d15cc8fbdeb9c3262d8a59170a1c86e14b60b912e88e13e917480ce8b9bd4fb1
+    digest: 473dc0228e12a51ee95f29141bfc70fb99939985d7d09e6f79dc83ff4711b684
     icon: https://dashboard.snapcraft.io/site_media/appmedia/2020/02/logo-square.png
     keywords:
     - fluentbit
@@ -125,11 +125,11 @@ entries:
     sources:
     - https://github.com/intelliguy/fluentbit-operator
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/fluentbit-operator-1.0.9.tgz
+    - https://zugwan.github.io/hanu-helm-repo/fluentbit-operator-1.0.9.tgz
     version: 1.0.9
   glance:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.329095246Z"
+    created: "2020-12-02T10:38:05.62284333Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -145,12 +145,12 @@ entries:
     - https://opendev.org/openstack/glance
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/glance-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/glance-0.1.0.tgz
     version: 0.1.0
   grafana:
   - apiVersion: v1
     appVersion: 7.1.1
-    created: "2020-12-02T01:05:21.33109573Z"
+    created: "2020-12-02T10:38:05.625044623Z"
     deprecated: true
     description: DEPRECATED - The leading tool for querying and visualizing time series
       and metrics.
@@ -162,11 +162,11 @@ entries:
     sources:
     - https://github.com/grafana/grafana
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/grafana-5.5.7.tgz
+    - https://zugwan.github.io/hanu-helm-repo/grafana-5.5.7.tgz
     version: 5.5.7
   heat:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.340105048Z"
+    created: "2020-12-02T10:38:05.63497639Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -182,11 +182,11 @@ entries:
     - https://opendev.org/openstack/heat
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/heat-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/heat-0.1.0.tgz
     version: 0.1.0
   horizon:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.352594889Z"
+    created: "2020-12-02T10:38:05.648717043Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -202,11 +202,11 @@ entries:
     - https://opendev.org/openstack/horizon
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/horizon-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/horizon-0.1.0.tgz
     version: 0.1.0
   ingress:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.356213556Z"
+    created: "2020-12-02T10:38:05.65569782Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -221,11 +221,11 @@ entries:
     - https://github.com/kubernetes/ingress
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/ingress-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/ingress-0.1.0.tgz
     version: 0.1.0
   ironic:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.363171426Z"
+    created: "2020-12-02T10:38:05.662432697Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -241,12 +241,12 @@ entries:
     - https://opendev.org/openstack/ironic
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/ironic-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/ironic-0.1.0.tgz
     version: 0.1.0
   keycloak:
   - apiVersion: v1
     appVersion: 10.0.0
-    created: "2020-12-02T01:05:21.3700252Z"
+    created: "2020-12-02T10:38:05.673201961Z"
     dependencies:
     - condition: keycloak.persistence.deployPostgres
       name: postgresql
@@ -254,7 +254,7 @@ entries:
       version: 8.9.5
     description: Open Source Identity and Access Management For Modern Applications
       and Services
-    digest: 013f9fc813dcdf142c661f43ba02568c13430edaa322cf790d95ff5c37956b65
+    digest: 09cbba4ace8120eb55c6b4cda4c1289d2d373560cecd9774e5b2575936474236
     home: https://www.keycloak.org/
     icon: https://www.keycloak.org/resources/images/keycloak_logo_480x108.png
     keywords:
@@ -274,11 +274,11 @@ entries:
     - https://github.com/codecentric/helm-charts
     - https://github.com/jboss-dockerfiles/keycloak
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/keycloak-8.2.2-skt03.tgz
+    - https://zugwan.github.io/hanu-helm-repo/keycloak-8.2.2-skt03.tgz
     version: 8.2.2-skt03
   keystone:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.379456901Z"
+    created: "2020-12-02T10:38:05.682584629Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -294,12 +294,12 @@ entries:
     - https://opendev.org/openstack/keystone
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/keystone-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/keystone-0.1.0.tgz
     version: 0.1.0
   kube-state-metrics:
   - apiVersion: v1
     appVersion: 1.9.7
-    created: "2020-12-02T01:05:21.380442772Z"
+    created: "2020-12-02T10:38:05.683799425Z"
     deprecated: true
     description: DEPRECATED - Install kube-state-metrics to generate and expose cluster-level
       metrics
@@ -314,22 +314,22 @@ entries:
     sources:
     - https://github.com/kubernetes/kube-state-metrics/
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/kube-state-metrics-2.9.4.tgz
+    - https://zugwan.github.io/hanu-helm-repo/kube-state-metrics-2.9.4.tgz
     version: 2.9.4
   kubernetes-event-exporter:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-02T01:05:21.380861029Z"
+    created: "2020-12-02T10:38:05.684233024Z"
     description: A Helm chart for Kubernetes
-    digest: a3b5621aee850e55df6e5cb727541f1e2a385a8d11286a734287e0222b2f0cff
+    digest: 4885f99d97e4b8de755ea283302db03085e3bb28bd9e9ce2c97b334d49661cb6
     name: kubernetes-event-exporter
     type: application
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/kubernetes-event-exporter-1.0.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/kubernetes-event-exporter-1.0.0.tgz
     version: 1.0.0
   libvirt:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.384177151Z"
+    created: "2020-12-02T10:38:05.687947811Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -344,21 +344,21 @@ entries:
     - https://libvirt.org/git/?p=libvirt.git;a=summary
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/libvirt-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/libvirt-0.1.0.tgz
     version: 0.1.0
   lma-addons:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-02T01:05:21.389769633Z"
+    created: "2020-12-02T10:38:05.693985691Z"
     description: Kubernetes Resources for TACO Project
-    digest: ed2c5c17719f2c0213fd79b98b34fce74194ed7de76e9debb9df5ba66d69e1c4
+    digest: a9a14202c7e292100ca9b275030cf7caef0aa341346629ad64ed9125b6b3d699
     name: lma-addons
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/lma-addons-1.0.6.tgz
+    - https://zugwan.github.io/hanu-helm-repo/lma-addons-1.0.6.tgz
     version: 1.0.6
   mariadb:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.400507643Z"
+    created: "2020-12-02T10:38:05.707283146Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -374,10 +374,10 @@ entries:
     - https://github.com/MariaDB/server
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/mariadb-0.1.1.tgz
+    - https://zugwan.github.io/hanu-helm-repo/mariadb-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.395149657Z"
+    created: "2020-12-02T10:38:05.701548465Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -393,11 +393,11 @@ entries:
     - https://github.com/MariaDB/server
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/mariadb-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/mariadb-0.1.0.tgz
     version: 0.1.0
   memcached:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.404453619Z"
+    created: "2020-12-02T10:38:05.710616135Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -406,11 +406,11 @@ entries:
     digest: 3399b30ea77a0134bd504550793198109a3eae5bc5499902a1730a1c7d93b8e7
     name: memcached
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/memcached-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/memcached-0.1.0.tgz
     version: 0.1.0
   neutron:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.417408199Z"
+    created: "2020-12-02T10:38:05.728163475Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -426,11 +426,11 @@ entries:
     - https://opendev.org/openstack/neutron
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/neutron-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/neutron-0.1.0.tgz
     version: 0.1.0
   nova:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.431258752Z"
+    created: "2020-12-02T10:38:05.743577724Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -446,11 +446,11 @@ entries:
     - https://opendev.org/openstack/nova
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/nova-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/nova-0.1.0.tgz
     version: 0.1.0
   openvswitch:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.434436643Z"
+    created: "2020-12-02T10:38:05.746981112Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -466,12 +466,12 @@ entries:
     - https://github.com/openvswitch/ovs
     - https://opendev.org/openstack/openstack-helm
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/openvswitch-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/openvswitch-0.1.0.tgz
     version: 0.1.0
   prometheus-adapter:
   - apiVersion: v1
     appVersion: v0.7.0
-    created: "2020-12-02T01:05:21.435251777Z"
+    created: "2020-12-02T10:38:05.748672006Z"
     deprecated: true
     description: DEPRECATED A Helm chart for k8s prometheus adapter
     digest: 17f96f0063a2e4389976f9f10814db880568d3cb6b3e0433beec97695f0fd301
@@ -486,12 +486,12 @@ entries:
     - https://github.com/kubernetes/charts
     - https://github.com/DirectXMan12/k8s-prometheus-adapter
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/prometheus-adapter-2.5.1.tgz
+    - https://zugwan.github.io/hanu-helm-repo/prometheus-adapter-2.5.1.tgz
     version: 2.5.1
   prometheus-node-exporter:
   - apiVersion: v1
     appVersion: 1.0.1
-    created: "2020-12-02T01:05:21.435986866Z"
+    created: "2020-12-02T10:38:05.750089702Z"
     deprecated: true
     description: DEPRECATED A Helm chart for prometheus node-exporter
     digest: fa0248a4fc222401938ae887c3afb430cee45b2ba19fff169410deb607a95103
@@ -504,11 +504,11 @@ entries:
     sources:
     - https://github.com/prometheus/node_exporter/
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/prometheus-node-exporter-1.11.2.tgz
+    - https://zugwan.github.io/hanu-helm-repo/prometheus-node-exporter-1.11.2.tgz
     version: 1.11.2
   prometheus-openstack-exporter:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.439201643Z"
+    created: "2020-12-02T10:38:05.75353159Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -523,12 +523,12 @@ entries:
     - https://opendev.org/openstack/openstack-helm-infra
     - https://github.com/rakesh-patnaik/prometheus-openstack-exporter
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/prometheus-openstack-exporter-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/prometheus-openstack-exporter-0.1.0.tgz
     version: 0.1.0
   prometheus-operator:
   - apiVersion: v1
     appVersion: 0.38.1
-    created: "2020-12-02T01:05:21.460108747Z"
+    created: "2020-12-02T10:38:05.778401106Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -557,11 +557,11 @@ entries:
     - https://github.com/coreos/prometheus-operator
     - https://coreos.com/operators/prometheus
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/prometheus-operator-9.3.2.tgz
+    - https://zugwan.github.io/hanu-helm-repo/prometheus-operator-9.3.2.tgz
     version: 9.3.2
   prometheus-process-exporter:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.463095991Z"
+    created: "2020-12-02T10:38:05.781302496Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -576,12 +576,12 @@ entries:
     - https://github.com/ncabatoff/process-exporter
     - https://opendev.org/openstack/openstack-helm-infra
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/prometheus-process-exporter-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/prometheus-process-exporter-0.1.0.tgz
     version: 0.1.0
   prometheus-pushgateway:
   - apiVersion: v1
     appVersion: 1.2.0
-    created: "2020-12-02T01:05:21.463865685Z"
+    created: "2020-12-02T10:38:05.782178193Z"
     deprecated: true
     description: DEPRECATED A Helm chart for prometheus pushgateway
     digest: db8dedf565472848e635525c0a6e129a249067c44482c515e0b4adbe92fa1217
@@ -593,11 +593,11 @@ entries:
     sources:
     - https://github.com/prometheus/pushgateway
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/prometheus-pushgateway-1.4.3.tgz
+    - https://zugwan.github.io/hanu-helm-repo/prometheus-pushgateway-1.4.3.tgz
     version: 1.4.3
   rabbitmq:
   - apiVersion: v1
-    created: "2020-12-02T01:05:21.468031234Z"
+    created: "2020-12-02T10:38:05.786318079Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -606,32 +606,32 @@ entries:
     digest: 7c9172775312acb0b2ebe4f8741197ce57089eb22efca36c073b55ed609829dd
     name: rabbitmq
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/rabbitmq-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/rabbitmq-0.1.0.tgz
     version: 0.1.0
   sample-hpa-app:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-02T01:05:21.468268813Z"
+    created: "2020-12-02T10:38:05.786547079Z"
     description: A Helm chart for Kubernetes
-    digest: 43fdde5cf109b35c4d4a89f09b5514d595e7acff0947de265b8358992fe850d1
+    digest: 999a47fa1c2774c59c6eaa6cac49ec9f54cf4aa2ec34693be1f195fd17219e8c
     name: sample-hpa-app
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/sample-hpa-app-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/sample-hpa-app-0.1.0.tgz
     version: 0.1.0
   site-mirror-registry:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-02T01:05:21.46956439Z"
+    created: "2020-12-02T10:38:05.786863978Z"
     description: docker registry for site mirroring
-    digest: a529617c2730dcbaf5a6c9ecb9ca418ff3a0224113153c31c89403ad0a0f2b38
+    digest: 8f90fb77d796b5e5b4a0e12f898c3da21468e191b1f12f1c1410b3cde462d966
     name: site-mirror-registry
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/site-mirror-registry-0.0.3.tgz
+    - https://zugwan.github.io/hanu-helm-repo/site-mirror-registry-0.0.3.tgz
     version: 0.0.3
   sona:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-02T01:05:21.472379576Z"
+    created: "2020-12-02T10:38:05.790407966Z"
     dependencies:
     - name: helm-toolkit
       repository: http://localhost:8879/charts
@@ -641,26 +641,26 @@ entries:
     home: https://wiki.onosproject.org/display/ONOS/SONA%3A+DC+Network+Virtualization
     name: sona
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/sona-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/sona-0.1.0.tgz
     version: 0.1.0
   taco-registry:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-02T01:05:21.473473122Z"
+    created: "2020-12-02T10:38:05.79200256Z"
     description: A Helm chart for Kubernetes
-    digest: dbd6292a52122646320b3499c4fb273561a0a4bb93c44c4f612fcda66bade7dc
+    digest: 53d73750ba1665de7debeace00deb88acd1bc3ebb645134999b0644486dd116f
     name: taco-registry
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/taco-registry-1.0.6.tgz
+    - https://zugwan.github.io/hanu-helm-repo/taco-registry-1.0.6.tgz
     version: 1.0.6
   taco-watcher:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-12-02T01:05:21.474041278Z"
+    created: "2020-12-02T10:38:05.792978357Z"
     description: Monitoring Dashboard for Tacoplay
-    digest: 3d156bf7e942f4f0d2adbf1d2012d02f326adc835c87768b1467f970577632ad
+    digest: 67d08cbde9437e8bf173ad360acc8ade7da1cc55e8dbff087d1b60b14636784e
     name: taco-watcher
     urls:
-    - https://openinfradev.github.io/hanu-helm-repo/taco-watcher-0.1.0.tgz
+    - https://zugwan.github.io/hanu-helm-repo/taco-watcher-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-02T01:05:21.296369907Z"
+generated: "2020-12-02T10:38:05.585973455Z"
